@@ -36,6 +36,14 @@
 
 也可以在 [Releases](https://github.com/dfy5535/bedrock-rsf/releases) 里按版本下载。
 
+## 文件名映射（与 ModHub 对照）
+
+GitHub 上的产物用 ASCII 文件名（避免 Release 附件名编码问题），与 ModHub 上的中文文件名**内容完全一致**：
+
+| GitHub | ModHub | sha256 |
+|---|---|---|
+| `rsf-v2.3.1-all-terrain-4224-buildings.mcaddon` | `rsf-v2.3.1-全地形4224建筑.mcaddon` | `3461f0a1e3c6a178…`（同一个文件） |
+
 ## 安装
 
 1. 下载上面的 `.mcaddon` 文件
