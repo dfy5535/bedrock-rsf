@@ -44,6 +44,18 @@ GitHub 上的产物用 ASCII 文件名（避免 Release 附件名编码问题）
 |---|---|---|
 | `rsf-v2.3.1-all-terrain-4224-buildings.mcaddon` | `rsf-v2.3.1-全地形4224建筑.mcaddon` | `3461f0a1e3c6a178…`（同一个文件） |
 
+## 语言版本（English / 日本語）
+
+每个语言**独立打包**：只带一份语言文件（`en_US.lang` / `ja_JP.lang`），包内**不含任何中文**（连代码注释都翻过），玩法与数值和中文版完全一致。
+
+| 语言 | 文件 |
+|---|---|
+| 🇨🇳 中文 | `dist/rsf-v2.3.1-all-terrain-4224-buildings.mcaddon`<br>`dist/rsf-v2.1.0.mcaddon`<br>`dist/rsf-v2.0.1.mcaddon` |
+| 🇬🇧 English | `dist/rsf-v2.3.1-all-terrain-4224-buildings-en.mcaddon`<br>`dist/rsf-v2.1.0-en.mcaddon`<br>`dist/rsf-v2.0.1-en.mcaddon` |
+| 🇯🇵 日本語 | `dist/rsf-v2.3.1-all-terrain-4224-buildings-ja.mcaddon`<br>`dist/rsf-v2.1.0-ja.mcaddon`<br>`dist/rsf-v2.0.1-ja.mcaddon` |
+
+> 同一变体只装**一个语言**即可；三种语言的包 UUID 各不相同，可以并存但不建议同时启用。
+
 ## 安装
 
 1. 下载上面的 `.mcaddon` 文件
